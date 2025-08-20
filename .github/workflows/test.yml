@@ -7,8 +7,8 @@ on:
 jobs:
   submit_lava:
     runs-on:
-      group: GHA-Audioreach-SelfHosted-RG
-      labels: [ self-hosted, self-hosted, audior-prd-u2204-x64-large-od-ephem ]
+      group: GHA-Audioreach-Stg-SelfHosted-RG
+      labels: [ self-hosted, self-hosted, audior-stg-u2204-x64-large-od-ephem ]
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
