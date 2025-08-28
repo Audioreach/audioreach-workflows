@@ -92,7 +92,7 @@ jobs:
         id: pull_sdk
         uses: Audioreach/audioreach-workflows/.github/actions/aws-s3-exchanger@stg
         with:
-          s3_bucket: qli-prd-audior-gh-artifacts
+          s3_bucket: qli-stg-audior-gh-artifacts
           download_filename: ${{ env.SDK_NAME }}
           mode: download
           location: Audioreach/meta-ar/post_merge_build
